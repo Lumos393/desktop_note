@@ -5,11 +5,12 @@ import datetime as dt
 import xml
 
 uinput = input("Enter note now\n")
-print("e1")
-
+#set up input
 notes = open("notes.xml", "a")
-print("e2")
-notes.write(uinput+"\n")
-print("e3")
+#open notes.xml file
 
-print(notes.read)
+notes.write(uinput + "\n\n")
+#call input and write to notes
+
+notes.close
+#close notes
