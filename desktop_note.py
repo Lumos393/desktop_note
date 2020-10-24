@@ -9,7 +9,7 @@ print("e1")
 
 notes = open("notes.xml", "a")
 print("e2")
-notes.write(uinput)
+notes.write(uinput+"\n")
 print("e3")
 
 print(notes.read)
